@@ -1,0 +1,137 @@
+main {
+  padding: 20px;
+  background-color: pink;
+  color: black;
+  text-align: center;
+}
+
+main h1 {
+  margin: 50px 0 75px;
+  font-size: 100px;
+  text-decoration: underline;
+  text-decoration-thickness: 10px;
+  text-decoration-color: black;
+  text-underline-offset: 30px;
+  text-shadow: 5px 5px white;
+}
+
+h1 span.discography {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+main .iframe {
+  border-radius: inherit;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  background: white;
+}
+
+main .iframe article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 10;
+  pointer-events: none;
+}
+
+main .iframe article h2 {
+  font-size: 75px;
+  text-shadow: 5px 5px black;
+}
+
+main .iframe article p {
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+}
+
+main .iframe iframe {
+  display: block;
+  border: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  overflow: hidden;
+  z-index: 5;
+}
+
+main #image {
+  background-image: url("image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 56.25%;
+}
+
+main a.jump {
+  color: pink;
+  font-size: 24px;
+  margin: 25px 50px 50px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px 10px;
+  display: inline-block;
+  width: 500px;
+  box-shadow: 10px 10px white;
+  transition: box-shadow 250ms ease, transform 250ms ease;
+  will-change: box-shadow, transform;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+main a.jump:hover {
+  box-shadow: 20px 20px white;
+  transform: translate(-10px, -10px);
+}
+
+main a.jump .arrow {
+  transition: transform 250ms ease;
+  will-change: transform;
+  display: inline-block;
+}
+
+main a.jump:hover .arrow {
+  transform: translateX(10px);
+}
+
+main #list {
+  background: white;
+  padding: 50px;
+  text-align: left;
+}
+
+main #list ol {
+  margin-top: 50px;
+}
+
+main #tableau {
+  background: whitesmoke;
+}
+
+main .tableauPlaceholder {
+  margin: 50px auto;
+  position: relative;
+}
+
+main > div { 
+  margin: 50px;
+  width: calc(100% - 100px);
+  border-radius: 10px;
+  overflow: hidden;
+}
