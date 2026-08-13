@@ -15,38 +15,63 @@ open index.html
 ```
 
 ## Requirements
-
-23.6 Final Web Development Project
-For this portion of the final, you’re going to build a super awesome professional-looking website based on the bootstrap technique taught in the last chapter of this module. This part is naturally open-book, open-internet, etc. as long as the work is yours. As with the VBA exam and project, you will self-grade this portion after it is submitted.
-
-We have intentionally kept the requirements for this website somewhat loose so that you could feel free to be creative and build something you really care about. However, you must build a new site for this project. You cannot use a site you (or anyone else) had built previously, and you cannot collaborate on building a site with anyone in or out of the class. This must be a new site you created specifically for this project. Nevertheless, you can certainly build something that is useful outside of the course. We strongly recommend you build your site starting with a bootstrap theme. Your site must also include at least one page that is crafted entirely from scratch (requirements below) to demonstrate your understanding of and ability to implement the course content. Also, if you are a graduate student, please notice the additional requirements at the end.
-
-Requirements:
-
+26.7 Final Web Development Project
 In general:
+The site must be professional in appearance. One way to do this is using a bootstrap theme (which we recommend). We will deduct points for clear aesthetic errors anywhere on your site that reduce readability or are distracting. These include, but are not limited to:
+Blue text on red background is atrocious
+Animated GIF backgrounds are horrific
+Red text on gray background is impossible to read
+Anything like this: click me if you dare
 
-- The site must be professional in appearance. We will deduct points for clear aesthetic errors anywhere on your site that reduce readability or are distracting. These include, but are not limited to:
-  - blue text on red background is atrocious
-  - animated gif backgrounds are horrific
-  - red text on gray background is impossible to read
-- The site must be hosted online (e.g., via GitHub pages as shown in the previous section).
-- The site must not have any broken content: images, links, videos, etc.
-- The site must include a resume portion created in html (not as a pdf). This should be a useful resume with good information organized in an easy-to-access way. Useful information includes your education, work experience, skills, and possibly some awards or honors that distinguish you. You do not need to include your contact information unless you want to.
-- From-scratch page:
-  - This page must be created from a blank html file.
-  - It must include the following as a demonstration of your ability to write html and css:
-    - An unordered list embedded in an ordered list
-    - At least one image (not from the bootstrap theme)
-    - An embedded YouTube video (we intentionally didn’t teach you this, so you would have to Google this – good learning experience)
-    - An on-page anchor
-- A custom background color or image
-- You also need to link to (and apply) a stylesheet that you have created from scratch. This stylesheet should include:
-- At least four style definitions (it is possible you will have many more than four styles)
-- Styles that specify font color
-- Styles that specify font family
-- At least three divs that are positioned and styled using your styles
-- A live and interactive embedded Tableau graph (not just a picture of one).
-  This graph can be about anything. It doesn’t have to be a graph you created, although it certainly can be.
-- A quick Google search will show you where to find cool Tableau visualizations.
-  Navigation back to the professional-looking pages.
-- Your professional-looking pages do not need to link to this page. This way you can use the professional side for whatever you want without worrying someone might find this DIY page…
+The site must be hosted online (e.g., via GitHub pages).
+
+The site must not have any broken content: images, links, videos, etc., incuding social icon links.
+
+The site must include a résumé portion created in HTML (not as a PDF). This should be a useful resume with good information organized in an easy-to-access way. Useful information includes your education, work experience, skills, and possibly some awards or honors that distinguish you. You do not need to include your contact information unless you want to. The résumé content can appear in your professional pages or your scratch page, or both.
+
+From-scratch page:
+
+This page must be created from a blank HTML file and should not use any of the bootstrap content. However, you are welcome to let an AI help you clean it up or use copilot to autocomplete code.
+It can be about anything. Pick a hobby, or a passion, or something that fascinates you.
+It must include the following as a demonstration of your ability to write HTML and CSS:
+An unordered list embedded in an ordered list (or the other way around)
+At least one image not from the Bootstrap theme (feel free to have many more)
+An embedded YouTube video (we intentionally didn’t teach you this, so you would have to figure it out—good learning experience)--also, this won't work locally, but it will work once you host the website online.
+An on-page anchor
+A custom background color or background image
+You also need to link to (and apply) a stylesheet that you have created from scratch. This stylesheet should include:
+At least four style definitions (it is possible you will have many more than four styles)
+Styles that specify font color
+Styles that specify font family
+At least three divs for positioning and styling blocks of content in the HTML page
+A live and interactive embedded Tableau graph (not just a picture of one).
+This graph can be about anything. It doesn’t have to be a graph you created, although it certainly can be.
+A quick Google search will show you where to find cool Tableau visualizations.
+Navigation back to the professional-looking pages.
+Your professional-looking pages do not need to link to the scratch page (but you will submit the URL to your scratch page). This way you can use the professional side for whatever you want without worrying someone might find this scratch page… 
+If you are a graduate student, you must also include a link on this scratch page to your extra page (see below).
+A small web app created in collaboration with AI: 
+Be creative. Here are some examples of what other students have done. Keep in mind that the first three are fairly basic. To merit full credit on an app like one of these first three would require you to creatively contribute (either in style or function) to what the AI comes up with to go beyond a basic app.
+Riddle generator
+Joke generator
+Number guessing game
+Snake game
+Wordle clone
+Simulator
+Video game
+Try to keep the code for this app in a single page (e.g., styles, HTML, and scripts all on one page).
+This page should be accessible via a link from the scratch page.
+Rarely will the AI get it right on the first attempt. Feel free to iterate and refine with the AI until it meets your expectations. You are also encouraged to edit the AI solution to be just how you want it.
+Graduate students:
+Graduate students are required to make one additional page beyond the requirements listed above.
+This additional page should be focused on their area of expertise (e.g., marketing, accounting, strategy, etc.).
+Please include content that highlights
+Your projected career path
+Your individual experience in this field to date (e.g., internship)
+Your anticipated contributions to this field (i.e., how will the field/world benefit from you joining this field?)
+This page should include relevant media such as images and videos if appropriate.
+Feel free to include graphs if appropriate.
+You can include this as one of the Bootstrap-themed pages, or you can build it from scratch.
+ 
+
+To help clarify, here is a visual representation of what you'll want to include:
