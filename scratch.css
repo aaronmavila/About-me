@@ -3,7 +3,21 @@ nav {
   padding: 15px 30px;
   border-bottom: 2px solid black;
 }
-
+main .iframe {
+  width: 80%;            /* Larger width */
+  max-width: 900px;      /* Caps size on massive screens */
+  margin: 0 auto 50px;   /* Centers it horizontally */
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 45%;   /* Adjusted aspect ratio for the larger size */
+  background: black;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* Professional depth */
+}
+#video h1 {
+  text-align: center;
+  padding-top: 40px;
+}
 nav ul {
   list-style-type: none; 
   margin: 0;
